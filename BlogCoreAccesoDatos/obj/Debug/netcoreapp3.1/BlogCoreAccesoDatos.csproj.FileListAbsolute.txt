@@ -1,0 +1,5 @@
+I:\Desarrollo_de_aplicaciones\asp.net\BlogCore\BlogCoreAccesoDatos\bin\Debug\netcoreapp3.1\BlogCoreAccesoDatos.deps.json
+I:\Desarrollo_de_aplicaciones\asp.net\BlogCore\BlogCoreAccesoDatos\bin\Debug\netcoreapp3.1\BlogCoreAccesoDatos.dll
+I:\Desarrollo_de_aplicaciones\asp.net\BlogCore\BlogCoreAccesoDatos\obj\Debug\netcoreapp3.1\BlogCoreAccesoDatos.csprojAssemblyReference.cache
+I:\Desarrollo_de_aplicaciones\asp.net\BlogCore\BlogCoreAccesoDatos\obj\Debug\netcoreapp3.1\BlogCoreAccesoDatos.AssemblyInfoInputs.cache
+I:\Desarrollo_de_aplicaciones\asp.net\BlogCore\BlogCoreAccesoDatos\obj\Debug\netcoreapp3.1\BlogCoreAccesoDatos.AssemblyInfo.cs

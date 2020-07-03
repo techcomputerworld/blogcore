@@ -1,0 +1,14 @@
+I:\Desarrollo_de_aplicaciones\asp.net\BlogCore\BlogCoreAccesoDatos\bin\Debug\netcoreapp3.1\BlogCore.AccesoDatos.deps.json
+I:\Desarrollo_de_aplicaciones\asp.net\BlogCore\BlogCoreAccesoDatos\bin\Debug\netcoreapp3.1\BlogCore.AccesoDatos.dll
+I:\Desarrollo_de_aplicaciones\asp.net\BlogCore\BlogCoreAccesoDatos\obj\Debug\netcoreapp3.1\BlogCore.AccesoDatos.csprojAssemblyReference.cache
+I:\Desarrollo_de_aplicaciones\asp.net\BlogCore\BlogCoreAccesoDatos\obj\Debug\netcoreapp3.1\BlogCore.AccesoDatos.AssemblyInfoInputs.cache
+I:\Desarrollo_de_aplicaciones\asp.net\BlogCore\BlogCoreAccesoDatos\obj\Debug\netcoreapp3.1\BlogCore.AccesoDatos.AssemblyInfo.cs
+I:\Desarrollo_de_aplicaciones\asp.net\BlogCore\BlogCoreAccesoDatos\bin\Debug\netcoreapp3.1\BlogCore.AccesoDatos.pdb
+I:\Desarrollo_de_aplicaciones\asp.net\BlogCore\BlogCoreAccesoDatos\obj\Debug\netcoreapp3.1\BlogCore.AccesoDatos.csproj.CoreCompileInputs.cache
+I:\Desarrollo_de_aplicaciones\asp.net\BlogCore\BlogCoreAccesoDatos\obj\Debug\netcoreapp3.1\BlogCore.AccesoDatos.dll
+I:\Desarrollo_de_aplicaciones\asp.net\BlogCore\BlogCoreAccesoDatos\obj\Debug\netcoreapp3.1\BlogCore.AccesoDatos.pdb
+I:\Desarrollo_de_aplicaciones\asp.net\BlogCore\BlogCoreAccesoDatos\bin\Debug\netcoreapp3.1\BlogCore.Models.dll
+I:\Desarrollo_de_aplicaciones\asp.net\BlogCore\BlogCoreAccesoDatos\bin\Debug\netcoreapp3.1\BlogCore.Utilidades.dll
+I:\Desarrollo_de_aplicaciones\asp.net\BlogCore\BlogCoreAccesoDatos\bin\Debug\netcoreapp3.1\BlogCore.Models.pdb
+I:\Desarrollo_de_aplicaciones\asp.net\BlogCore\BlogCoreAccesoDatos\bin\Debug\netcoreapp3.1\BlogCore.Utilidades.pdb
+I:\Desarrollo_de_aplicaciones\asp.net\BlogCore\BlogCoreAccesoDatos\obj\Debug\netcoreapp3.1\BlogCore.AccesoDatos.csproj.CopyComplete
