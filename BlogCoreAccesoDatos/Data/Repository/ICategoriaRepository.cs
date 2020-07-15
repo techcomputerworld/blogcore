@@ -8,7 +8,7 @@ namespace BlogCore.AccesoDatos.Data.Repository
 {
     public interface ICategoriaRepository : IRepository<Categoria>
     {
-        IEnumerable<SelectListItem> GetListaCategoria();
+        IEnumerable<SelectListItem> GetListaCategorias();
 
         void Update(Categoria categoria);
     }

@@ -59,3 +59,14 @@
     </div>
 </form>
 
+@section Scripts {
+    <script src="https://cdn.tiny.cloud/1/9rkb5eglcpqe5xvb53ivdsrmx1hwiidgyyqz1dvu1ej9etor/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+    <script>
+        tinymce.init({
+            // 'textarea' afecta a ese campo de texto
+            selector: 'textarea',
+            plugins: 'lists',
+            menubar: 'file edit format'
+        });
+    </script>
+}

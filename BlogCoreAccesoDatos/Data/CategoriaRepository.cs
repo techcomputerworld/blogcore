@@ -19,7 +19,7 @@ namespace BlogCore.AccesoDatos.Data
         {
             _db = db;
         }
-        public IEnumerable<SelectListItem> GetListaCategoria()
+        public IEnumerable<SelectListItem> GetListaCategorias()
         {
             //Aquí me muestra todos los objetos que hay en ListaCategoria, el nombre y su Id.
             return _db.Categoria.Select(i => new SelectListItem() {

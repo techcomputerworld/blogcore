@@ -20521,6 +20521,11 @@
   "RootNamespace": "BlogCore",
   "Documents": [
     {
+      "FilePath": "i:\\Desarrollo_de_aplicaciones\\asp.net\\BlogCore\\BlogCore\\Areas\\Admin\\Views\\Sliders\\Index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Sliders\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "i:\\Desarrollo_de_aplicaciones\\asp.net\\BlogCore\\BlogCore\\Areas\\Admin\\Views\\_ViewStart.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
@@ -20556,6 +20561,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "i:\\Desarrollo_de_aplicaciones\\asp.net\\BlogCore\\BlogCore\\Areas\\Admin\\Views\\Articulos\\Edit.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Articulos\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "i:\\Desarrollo_de_aplicaciones\\asp.net\\BlogCore\\BlogCore\\Areas\\Admin\\Views\\Categorias\\Edit.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\Categorias\\Edit.cshtml",
       "FileKind": "mvc"
@@ -20573,6 +20583,11 @@
     {
       "FilePath": "i:\\Desarrollo_de_aplicaciones\\asp.net\\BlogCore\\BlogCore\\Areas\\Cliente\\Views\\_ViewStart.cshtml",
       "TargetPath": "Areas\\Cliente\\Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "i:\\Desarrollo_de_aplicaciones\\asp.net\\BlogCore\\BlogCore\\Areas\\Admin\\Views\\Sliders\\Create.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Sliders\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20603,6 +20618,11 @@
     {
       "FilePath": "i:\\Desarrollo_de_aplicaciones\\asp.net\\BlogCore\\BlogCore\\Areas\\Admin\\Views\\_ViewImports.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "i:\\Desarrollo_de_aplicaciones\\asp.net\\BlogCore\\BlogCore\\Areas\\Admin\\Views\\Sliders\\Edit.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Sliders\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {

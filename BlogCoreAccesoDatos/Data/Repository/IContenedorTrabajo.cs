@@ -9,7 +9,8 @@ namespace BlogCore.AccesoDatos.Data.Repository
     public interface IContenedorTrabajo : IDisposable
     {
         ICategoriaRepository Categoria { get; }
-        ICategoriaRepository Articulo { get; }
+        IArticuloRepository Articulo { get; }
+        ISliderRepository Slider { get; }
         void Save();
     }
 }
