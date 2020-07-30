@@ -13,6 +13,10 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using BlogCore.AccesoDatos.Data;
 using BlogCore.AccesoDatos.Data.Repository;
+using Microsoft.AspNetCore.Identity.UI.Services;
+using BlogCore.Utilidades;
+using BlogCore.Models;
+using BlogCore.AccesoDatos.Data.Inicializador;
 
 namespace BlogCore
 {
@@ -31,17 +35,23 @@ namespace BlogCore
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
-            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-                .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddIdentity<ApplicationUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = true)
+                .AddRoleManager<RoleManager<IdentityRole>>()
+                .AddEntityFrameworkStores<ApplicationDbContext>()
+                .AddDefaultTokenProviders();
+            //Hay que tener esta linea de debajo, para poder registrarnos en nuestra aplicación
+            services.AddSingleton<IEmailSender, EmailSender>();
             services.AddControllersWithViews();
             //añadir un ambito de servicio usando ese IContenedorTrabajo y ContenedorTrabajo
             services.AddScoped<IContenedorTrabajo, ContenedorTrabajo>();
+            //esta clase va a ser la que va a inicializar la base de datos
+            services.AddScoped<IInitDb, InitDb>();
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
             services.AddRazorPages();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IInitDb dbInicial)
         {
             if (env.IsDevelopment())
             {
@@ -58,7 +68,8 @@ namespace BlogCore
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            //esto es para 
+            dbInicial.Inicializar();
             app.UseAuthentication();
             app.UseAuthorization();
 

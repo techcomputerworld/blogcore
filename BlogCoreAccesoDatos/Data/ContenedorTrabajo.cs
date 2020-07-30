@@ -18,10 +18,12 @@ namespace BlogCore.AccesoDatos.Data
             Categoria = new CategoriaRepository(_db);
             Articulo = new ArticuloRepository(_db);
             Slider = new SliderRepository(_db);
+            Usuario = new UsuarioRepository(_db);
         }
         public ICategoriaRepository Categoria { get; private set; }
         public IArticuloRepository Articulo { get; private set; }
         public ISliderRepository Slider { get; private set; }
+        public IUsuarioRepository Usuario { get; private set; }
         //ICategoriaRepository IContenedorTrabajo.Articulo => throw new NotImplementedException();
         /*esta de debajo es la linea que tengo que agregar si quiero que me funcione ICategoriaRepository IContenedorTrabajo
         * me gustaría saber porque me pasa esto. 

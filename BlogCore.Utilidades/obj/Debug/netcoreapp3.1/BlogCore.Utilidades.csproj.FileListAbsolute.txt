@@ -2,8 +2,8 @@ I:\Desarrollo_de_aplicaciones\asp.net\BlogCore\BlogCore.Utilidades\bin\Debug\net
 I:\Desarrollo_de_aplicaciones\asp.net\BlogCore\BlogCore.Utilidades\bin\Debug\netcoreapp3.1\BlogCore.Utilidades.dll
 I:\Desarrollo_de_aplicaciones\asp.net\BlogCore\BlogCore.Utilidades\bin\Debug\netcoreapp3.1\BlogCore.Utilidades.pdb
 I:\Desarrollo_de_aplicaciones\asp.net\BlogCore\BlogCore.Utilidades\obj\Debug\netcoreapp3.1\BlogCore.Utilidades.csprojAssemblyReference.cache
-I:\Desarrollo_de_aplicaciones\asp.net\BlogCore\BlogCore.Utilidades\obj\Debug\netcoreapp3.1\BlogCore.Utilidades.csproj.CoreCompileInputs.cache
 I:\Desarrollo_de_aplicaciones\asp.net\BlogCore\BlogCore.Utilidades\obj\Debug\netcoreapp3.1\BlogCore.Utilidades.AssemblyInfoInputs.cache
 I:\Desarrollo_de_aplicaciones\asp.net\BlogCore\BlogCore.Utilidades\obj\Debug\netcoreapp3.1\BlogCore.Utilidades.AssemblyInfo.cs
 I:\Desarrollo_de_aplicaciones\asp.net\BlogCore\BlogCore.Utilidades\obj\Debug\netcoreapp3.1\BlogCore.Utilidades.dll
 I:\Desarrollo_de_aplicaciones\asp.net\BlogCore\BlogCore.Utilidades\obj\Debug\netcoreapp3.1\BlogCore.Utilidades.pdb
+I:\Desarrollo_de_aplicaciones\asp.net\BlogCore\BlogCore.Utilidades\obj\Debug\netcoreapp3.1\BlogCore.Utilidades.csproj.CoreCompileInputs.cache
