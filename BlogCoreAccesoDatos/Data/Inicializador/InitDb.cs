@@ -49,7 +49,7 @@ namespace BlogCore.AccesoDatos.Data.Inicializador
                 EmailConfirmed = true,
                 Nombre = "José Luis"
 
-            }, "admiN123K").GetAwaiter().GetResult();
+            }, "N98smxztLs@An").GetAwaiter().GetResult();
             ApplicationUser usuario = _db.ApplicationUser.
                 Where(us => us.Email == "onzulin@gmail.com").FirstOrDefault();
 

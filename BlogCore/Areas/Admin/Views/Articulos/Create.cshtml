@@ -27,32 +27,42 @@
                     <label asp-for="Articulo.Descripcion"></label>
                 </div>
                 <div class="col-8">
-                    <textarea asp-for="Articulo.Descripcion" class="form-control" style="height: 300px"></textarea>
-                    <span asp-validation-for="Articulo.Descripcion" class="text-danger"></span>
+                    <!--<textarea id="editor" asp-for="Articulo.Descripcion" class="form-control" style="height: 300px"></textarea>-->
+
+                    <textarea asp-for="Articulo.Descripcion" name="Description" id="summernote"></textarea>
+
+
+
+
+
+                    <!--<div id="editor" asp-for="Articulo.Descripcion" style="height: 300px"></div>
+            <span asp-validation-for="Articulo.Descripcion" class="text-danger"></span>
+            -->
                 </div>
             </div>
-        </div>
-        <div class="form-group row">
-            <div class="col-4">
-                <label asp-for="Articulo.CategoriaId"></label>
-            </div>
-            <div class="col-8">
-                @Html.DropDownListFor(m => m.Articulo.CategoriaId, Model.ListaCategorias,
-               "-Por favor selecciona una categoría-", new { @class = "form-control" })
-            </div>
-        </div>
-        <div class="form-group row">
-            <div class="col-4">
-                <label asp-for="Articulo.UrlImagen"></label>
-            </div>
-            <div class="col-8">
-                <input type="file" name="archivos" id="subidaArchivo" class="form-control" />
-            </div>
-        </div>
-        <div class="col-md-12">
+
             <div class="form-group row">
-                <div class="col-8 offset-4">
-                    <partial name="_VistaCrearVolver" />
+                <div class="col-4">
+                    <label asp-for="Articulo.CategoriaId"></label>
+                </div>
+                <div class="col-8">
+                    @Html.DropDownListFor(m => m.Articulo.CategoriaId, Model.ListaCategorias,
+                   "-Por favor selecciona una categoría-", new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Articulo.UrlImagen"></label>
+                </div>
+                <div class="col-8">
+                    <input type="file" name="archivos" id="subidaArchivo" class="form-control" />
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="form-group row">
+                    <div class="col-8 offset-4">
+                        <partial name="_VistaCrearVolver" />
+                    </div>
                 </div>
             </div>
         </div>
@@ -60,13 +70,19 @@
 </form>
 
 @section Scripts {
-    <script src="https://cdn.tiny.cloud/1/9rkb5eglcpqe5xvb53ivdsrmx1hwiidgyyqz1dvu1ej9etor/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+
+    <!-- include summernote css/js -->
+    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
     <script>
-        tinymce.init({
-            // 'textarea' afecta a ese campo de texto
-            selector: 'textarea',
-            plugins: 'lists',
-            menubar: 'file edit format'
+        $(document).ready(function () {
+            $('#summernote').summernote();
         });
     </script>
+
+
+
+
 }
+
+
